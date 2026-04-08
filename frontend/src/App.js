@@ -27,14 +27,14 @@ export default function App() {
     }
   };
 
-  // ✅ Chart data
+  // Chart data
   const chartData = [
     { name: "Positive", value: history.filter(h => h.result?.ai_output?.sentiment==="positive").length },
     { name: "Negative", value: history.filter(h => h.result?.ai_output?.sentiment==="negative").length },
     { name: "Neutral", value: history.filter(h => h.result?.ai_output?.sentiment==="neutral").length }
   ];
 
-  // ✅ Colors (PRO LOOK)
+  //  Colors (PRO LOOK)
   const COLORS = {
     Positive: "#22c55e", // green
     Negative: "#ef4444", // red
@@ -98,7 +98,7 @@ export default function App() {
 
         </div>
 
-        {/* 🔥 CHART WITH COLORS */}
+        {/* CHART WITH COLORS */}
         <div className="chart">
           <h3>📊 Sentiment Analysis</h3>
 
