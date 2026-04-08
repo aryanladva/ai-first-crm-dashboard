@@ -38,4 +38,4 @@ npm start
 
 ## 🔹 Author
 
-Aryan Ladva
+Prajapati Aryan
