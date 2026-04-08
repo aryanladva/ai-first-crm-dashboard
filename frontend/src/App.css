@@ -139,7 +139,7 @@ button:hover {
   transform: scale(1.02);
 }
 
-/* 🔥 RESPONSIVE DESIGN */
+/*  RESPONSIVE DESIGN */
 @media (max-width: 900px) {
 
   .app {
